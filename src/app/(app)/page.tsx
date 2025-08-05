@@ -1,5 +1,5 @@
 "use client";
-import { CodeXml, Linkedin, Smile, Twitter } from "lucide-react";
+import { CodeXml, Linkedin, Smile } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
