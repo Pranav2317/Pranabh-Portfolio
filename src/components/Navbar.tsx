@@ -152,7 +152,7 @@ const Navbar = () => {
           </Link>
           <Link
             target="_blank"
-            href="https://drive.google.com/file/d/1RuiFFIN8PeEjAbi-oQievybHBa4QhGj7/view?usp=sharing"
+            href="https://drive.google.com/file/d/1LbZlg8fTypxeSuQqiFZPedDeD9_HhIUf/view?usp=sharing"
           >
             <motion.li
               whileHover={{ y: 5, opacity: 1 }}
