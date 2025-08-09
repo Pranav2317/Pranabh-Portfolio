@@ -9,7 +9,7 @@ import { NeonGradientCard } from "./ui/neon-gradient-card";
 export function ProjectsV2() {
   const data = [
     
- {
+  {
   title: "Sea Guardian",
   content: (
     <motion.div
@@ -18,10 +18,10 @@ export function ProjectsV2() {
       whileInView={{ scale: 1, opacity: 1 }}
       transition={{ duration: 0.3 }}
     >
-      <NeonGradientCard className="flex flex-col gap-4 items-center justify-center text-center">
+      <NeonGradientCard className="flex flex-col gap-6 items-center justify-center text-center">
         <div className="w-full text-neutral-800 dark:text-neutral-200 text-sm md:text-base font-normal">
-          <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2 mb-3">
-            <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold text-start text-mid">
+          <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2 mb-4">
+            <h3 className="text-xl sm:text-2xl md:text-4xl font-semibold text-start text-mid">
               Sea Guardian
             </h3>
             <div className="flex space-x-2">
@@ -41,27 +41,28 @@ export function ProjectsV2() {
               </Link>
             </div>
           </div>
-          <p className="text-start leading-relaxed text-sm sm:text-base mb-2">
-            • AWS + Node.js backend (99.9% uptime) <br />
-            • AI-powered pollution detection (Sentinel-2) <br />
-            • GDSC Bootcamp Innovation Finalist
-          </p>
+       <p className="text-start text-sm sm:text-base leading-relaxed line-clamp-4 mb-4">
+  • Built a fault-tolerant backend with AWS & Node.js (99.9% uptime).<br />
+  • Led AI-based pollution detection (Sentinel-2, 90% accuracy).<br />
+  • Recognized at GDSC Bootcamp for innovative impact.
+</p>
         </div>
-
         <div className="w-full max-w-full">
-          <Image
-            src="/assets/sea.png"
-            alt="Sea Guardian project screenshot"
-            width={800}
-            height={400}
-            className="rounded-lg w-full max-h-[240px] sm:max-h-[300px] object-cover shadow-[0_0_24px_rgba(34,42,53,0.06),0_1px_1px_rgba(0,0,0,0.05),0_0_0_1px_rgba(34,42,53,0.04),0_0_4px_rgba(34,42,53,0.08),0_16px_68px_rgba(47,48,55,0.05),0_1px_0_rgba(255,255,255,0.1)_inset]"
-          />
+     <Image
+  src="/assets/sea.png"
+  alt="Sea Guardian project screenshot"
+  width={800}
+  height={800}
+  className="rounded-lg w-full max-h-[360px] sm:max-h-[240px] object-cover shadow-[0_0_24px_rgba(34,42,53,0.06),0_1px_1px_rgba(0,0,0,0.05),0_0_0_1px_rgba(34,42,53,0.04),0_0_4px_rgba(34,42,53,0.08),0_16px_68px_rgba(47,48,55,0.05),0_1px_0_rgba(255,255,255,0.1)_inset]"
+/>
+
+
+
         </div>
       </NeonGradientCard>
     </motion.div>
   ),
 },
-
 
     {
       title: "Paws-Vedas",
