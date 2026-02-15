@@ -4,6 +4,7 @@ import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
+import Experience from "@/components/Experience";
 import Link from "next/link";
 
 const page = () => {
@@ -86,10 +87,10 @@ const page = () => {
               </Button>
             </Link>
             <p className=" text-sm md:text-xl mx-4 md:w-[600px] mb-3 md:mb-0 pl-8  text-wrap text-left font-roboto ">
-              I Pranabh Dubey dedicated and detail-oriented Full Stack Developer with a strong
-              foundation in both front-end and back-end technologies. I have hands-on experience
-              with technologies such as HTML, CSS, JavaScript, React, Node.js, and MongoDB through
-              academic projects and self-driven learning.
+             Aspiring Software Development Engineer with hands-on experience building web applications using JavaScript, React.js, 
+Node.js, and MongoDB. Familiar with designing efficient solutions, working in team environments, and following Agile 
+practices. Passionate about writing clean, maintainable code and eager to contribute to real-world software development. 
+Always open to learning new technologies and growing as a developer.   
               <br />
               <br />
               I am passionate about creating efficient, scalable, and user-friendly web
@@ -100,6 +101,9 @@ const page = () => {
           </motion.div>
         </div>
       </motion.div>
+
+      {/* Experience Section */}
+      <Experience />
     </div>
   );
 };

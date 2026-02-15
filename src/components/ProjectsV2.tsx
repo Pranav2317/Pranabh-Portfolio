@@ -63,6 +63,58 @@ export function ProjectsV2() {
     </motion.div>
   ),
 },
+   {
+      title: "Ai note taking app",
+      content: (
+        <motion.div
+          className="w-full bg-[#181819] p-4 sm:p-6 rounded-xl border border-gray-700"
+          initial={{ scale: 0.8, opacity: 0 }}
+          whileInView={{ scale: 1, opacity: 1 }}
+          transition={{ duration: 0.3 }}
+        >
+          <NeonGradientCard className="flex flex-col gap-6 items-center justify-center text-center">
+            <div className="w-full text-neutral-800 dark:text-neutral-200 text-sm md:text-base font-normal">
+              <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2 mb-4">
+                <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold text-start">
+                  Ai note taking app
+                </h3>
+                <div className="flex space-x-2">
+                  <Link
+                    href="https://github.com/Pranav2317/Ai-note-taking-app-1"
+                    target="_blank"
+                    className="bg-black p-2 text-white rounded-full"
+                  >
+                    <Radio size={16} />
+                  </Link>
+                  <Link
+                    href="ai-note-taking-app-1-ten.vercel.app"
+                    target="_blank"
+                    className="bg-black p-2 text-white rounded-full"
+                  >
+                    <Github size={16} />
+                  </Link>
+                </div>
+              </div>
+              <p className="text-start leading-relaxed text-sm sm:text-base">
+                • Built AI-powered note summarization using Google Gemini for smarter content insights. 
+• Developed real-time intelligent search with MongoDB text indexing & filtering. 
+• Implemented JWT auth, version history, and PDF/Markdown export features. </p>
+            </div>
+            <div className="w-full max-w-full">
+              <Image
+                src="/assets/ans.png"
+                alt="ZenCloud Screenshot"
+                width={700}
+                height={250}
+                className="rounded-lg w-full h-auto object-contain shadow-[0_0_24px_rgba(34,42,53,0.06),0_1px_1px_rgba(0,0,0,0.05),0_0_0_1px_rgba(34,42,53,0.04),0_0_4px_rgba(34,42,53,0.08),0_16px_68px_rgba(47,48,55,0.05),0_1px_0_rgba(255,255,255,0.1)_inset]"
+              />
+            </div>
+          </NeonGradientCard>
+        </motion.div>
+      ),
+    },
+  
+
 
     {
       title: "Paws-Vedas",

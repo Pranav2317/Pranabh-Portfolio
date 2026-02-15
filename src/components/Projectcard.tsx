@@ -32,6 +32,17 @@ const projects: Projects[] = [
   },
   {
     num: "02",
+    category: "Fullstack",
+    title: "Ai note taking app",
+    description:
+      "Built AI-powered note summarization using Google Gemini for smarter content insights.• Developed real-time intelligent search with MongoDB text indexing & filtering. Implemented JWT auth, version history, and PDF/Markdown export features. ",
+    stack: ["NextJS", "Node.js","JWT", "Express", "MongoDB","React","Google gemini", "Tailwind"],
+    image: "/assets/projects/ans.png",
+    live: "https://seaguardian.binit.site/",
+    github: "https://github.com/Pranav2317/SeaGuardian",
+  },
+  {
+    num: "02",
     category: "Frontend",
     title: "PawsVeda - Pet Adoption and ecommerce Platform",
     description:

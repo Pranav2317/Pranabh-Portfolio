@@ -24,7 +24,7 @@ const Footer = () => {
           Github
         </Link>
         <Link
-          href="mailto:dubeypranav@gmail.com"
+          href="mailto:pranabhdubey1507@gmail.com"
           target="_blank"
           className="hover:text-white/50"
         >

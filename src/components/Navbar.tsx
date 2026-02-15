@@ -132,7 +132,7 @@ const Navbar = () => {
               </motion.div>
             </motion.li>
           </Link>
-          <Link href="mailto:himanshuholmes@gmail.com">
+          <Link href="mailto:pranabhdubey1507@gmail.com">
             <motion.li
               whileHover={{ y: 5, opacity: 1 }}
               onMouseEnter={() => handleHover("contact")}
